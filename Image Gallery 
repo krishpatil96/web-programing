@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Image Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ddffc8;
+            font-family: Arial, sans-serif;
+        }
+        .gallery-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        #Read_More {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .btn-custom {
+            background-color: #020262;
+            color: rgb(232, 250, 255);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .btn-custom:hover {
+            background-color: #214469;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Bio Technology</h1>
+        
+        <div class="row gallery">
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="4d372241-155f-4f09-be14-2c7f2ab5345a.jpg" class="img-fluid gallery-img" alt="Football">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="44815912-7585-4ea9-8018-dbb106dc4e74.jpg" class="img-fluid gallery-img" alt="Basketball">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="1a7aa532-df63-4758-82f7-389baf001fee.jpg" class="img-fluid gallery-img" alt="Tennis">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334" class="img-fluid gallery-img" alt="Football">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="dcf688f3-4ea4-44ec-87a9-871852bfe71c.jpg" class="img-fluid gallery-img" alt="Basketball">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="40f5dc42-f3c3-4968-a4bb-8b44993dad5f.jpg" class="img-fluid gallery-img" alt="Tennis">
+                </a>
+            </div>
+        </div>
+        
+        <div class="text-center mt-3">
+            <button class="btn-custom" onclick="ReadMore()">Read More</button>
+        </div>
+
+        <div id="Read_More" class="row gallery mt-4">
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="46585e44-42b7-4d50-bbfb-5237a18ac2e6.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="122dc03c-6448-4b6d-b87e-2bc5176de448.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="ccc9215a-95d9-4eca-b335-00f5f9c116dc.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cricket">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Swimming">
+                </a>
+            </div>
+            <div class="col-md-4 mb-3">
+                <a href="info.html">
+                    <img src="80b2d968-a39f-4541-b6c1-a86cc6887334.jpg" class="img-fluid gallery-img" alt="Cycling">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+       function ReadMore() {
+    var moreImages = document.getElementById("Read_More");
+    if (moreImages.style.display === "none" || moreImages.style.display === "") {
+        moreImages.style.display = "flex";
+        setTimeout(() => moreImages.style.opacity = "1", 100);
+    } else {
+        moreImages.style.opacity = "0";
+        setTimeout(() => moreImages.style.display = "none", 500); 
+    }
+}
+
+    </script>
+</body>
+</html>
